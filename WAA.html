@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Architecture</title>
+    <link href = "Styles/waa.css" rel = "stylesheet">
+</head>
+<body class = "parallax">
+    <div class = "content">
+        <h1>
+            Web Application Architecture
+        </h1>
+    </div>
+<div>
+    <h2>
+        Components of Web Application Architecture
+    </h2>
+</div>
+<div class = "card-display">
+    <!-- Card 1 -->
+    <div class = container>
+        <div class = card>
+          <div class = heading style = "top: -35%;">
+            <!-- <img href = "#" src ="Images/Client.png"> -->
+            Client Side
+          </div>
+          <div class = card-content>
+            <p>This component encompasses the user interface (UI) elements presented to users through web browsers. It uses JavaScript for interactive features, CSS (Cascading Style Sheets) for styling, and HTML (Hypertext Markup Language) for content organization.</p>
+          </div>
+          <div class = preview>
+            Hover To Read
+        </div>
+        </div>    
+      </div>
+      <!-- End Card 1 -->
+      <!-- Card 2 -->
+      <div class = container>
+        <div class = card>
+          <div class = heading style = "top: -35%;">
+            <!-- <img href = "#" src ="Images/Server.png"> -->
+            Server Side
+          </div>
+          <div class = card-content>
+            <p>Web applications' server-side servers are in charge of handling user requests, business logic, and data storage. An application server is used, which manages requests, creates dynamic content, and interacts with databases. For this, server-side programming languages like PHP, Python, and Java are employed. </p>
+          </div>
+          <div class = preview>
+            Hover To Read
+        </div>
+        </div>    
+      </div>
+      <!-- End Card 2 -->
+</div>
+<div class = "card-display">
+    <!-- Card 3 -->
+    <div class = container>
+        <div class = card>
+          <div class = heading style = "top:-30%; font-size: 30px; width: 300px; margin-bottom: 20px;">
+            <!-- <img href = "#" src ="Images/API.png"> -->
+            Application Programming Interface
+          </div>
+          <div class = card-content>
+            <p>APIs specify how various software components communicate and share data. They enable smooth functional integration by facilitating communication between the client-side and server-side components. Additionally, today, APIs are treated more like products than code. They are designed for consumption for specific audiences (e.g. mobile developers), and they are documented and versioned in a way that enables users to have clear expectations of their maintenance and lifecycle. </p>
+          </div>
+          <div class = preview style="margin-top: -100%;">
+            Hover To Read
+        </div>
+        </div>    
+      </div>
+      <!-- End Card 3 -->
+      <!-- Card 4 -->
+      <div class = container>
+        <div class = card>
+          <div class = heading style = "top: -25%; margin-bottom: 30px;">
+            <!-- <img href = "#" src ="Images/Database.png"> -->
+            Databases
+          </div>
+          <div class = card-content>
+            <p>Databases are used to manage and store data for applications. Depending on the structure and data needs of the application, they may be relational databases like MySQL or PostgreSQL or NoSQL databases like MongoDB. Communication between the database and web server become vital in smooth operation. </p>
+          </div>
+          <div class = preview>
+            Hover To Read
+        </div>
+        </div>    
+      </div>
+      <!-- End Card 4 -->
+</div>
+
+   <section class = "header">
+    <h2>
+        Types of Web Application Architecture
+    </h2>
+       <h1>
+        Monolith Architecture
+       </h1>
+   </section>
+   <section class = "grid-container">
+       <div class = "left">
+        <img src="Images/monolith.png" alt="Building">
+    </div>
+    <div class = "right">A single, unified codebase serves as the foundation of this web application architecture. This indicates that the entire application's code, including the user interface, business logic, and database access logic, is contained in the codebase. The same runtime environment is shared by all of the application's components.
+        Although it makes development simpler, as applications expand, it can become cumbersome, creating scalability and maintenance issues.
+        
+        </div>
+    </section>
+    <section class = "header-m">
+        <h1>
+         Serverless Architecture
+        </h1>
+    </section>
+   <section class = "grid-container-mid">
+    <div class = "mid-right">
+        <img src="Images/serverless.png" alt="Building">
+    </div>
+    <div class = "mid-left">Developers are free to concentrate solely on writing code thanks to serverless architecture, which abstracts server management. Services like Azure Functions and AWS Lambda automatically scale as necessary. With this architecture, a web application can be deployed without the need to manage the underlying infrastructure.
+        Web applications that require high levels of scalability, such as e-commerce, gaming, and streaming applications, are typical use cases for serverless web application architecture.
+        
+        </div>
+    </section>
+    <section class = "header">
+        <h1>
+         Microservices Architecture
+        </h1>
+    </section>
+   <section class = "grid-container">
+    <div class = "left">
+        <img src="Images/microservices.png" alt="Building">
+    </div>
+    <div class = "right">Using APIs, microservices divide an application into smaller, independent services. This improves maintenance, scalability, and flexibility but complicates managing interactions between services.
+        Each service in a microservices web application architecture is created to carry out a particular function. Each service can be managed and modified independently of the other services, which keeps the codebase maintainable. Additionally, services can be independently deployed, scaled, and managed. The performance of the application can be controlled more precisely thanks to this, and it also makes changes simple and quick for developers.
+        
+        </div>
+    </section>
+
+</body>
+</html>

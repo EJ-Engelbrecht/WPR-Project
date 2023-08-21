@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse:collapse;
+    box-sizing:border-box;
+    
+}
+.header h1,
+.header-m h1{
+    text-align: center;
+    /* background-color: rgb(140, 178, 179); */
+    color: cyan;
+    font-size: 50px;
+}
+.header h1{
+    margin: 5% 55% 1% 5%;
+}
+.header-m h1{
+    margin: 5% 5% 1% 60%;
+}
+.content{
+    margin:auto;
+    height: auto;
+    width: 100%;
+    padding: 1%;
+    background-color: rgba(38, 43, 74, 0.673);
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+
+.content h1{
+    /* Margins
+    top, right, bottom, left -> 4 values
+    top, right-left bottom, -> 3 values
+    top-bottom, left-right -> 2 values
+    all sides -> 1 val
+    */
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    font-size: 100px;
+    color: rgb(160, 228, 255);
+    /* background-color: cyan; */
+}
+
+h2{
+    background-color: rgba(62, 65, 223, 0.505);
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 0.5em;
+    color: azure;
+    margin: 100px;
+}
+
+.grid-container,
+.grid-container-mid{
+    width: 95%;
+    margin:  0% auto 5%; /* How to centre the page */
+    padding: 2em;
+    
+    /* The following line makes the container a grid */
+    display: grid;
+    
+    
+    /* grid-template-columns: repeat(2, 1fr); */
+
+    grid-template-rows: auto;
+    background-color: rgba(60, 125, 255, 0.53);
+    grid-template-areas: 
+    ' left right' ;
+    grid-column-gap: 20px;
+    height: 500px;
+    border-radius: 2em;
+}
+.grid-container{
+    grid-template-columns: 1fr 3fr;
+
+}
+.grid-container-mid{
+    grid-template-columns: 3fr 1fr;
+    
+    
+}
+.grid-container-mid img,
+.grid-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    
+}
+
+
+
+.left,
+.right,
+.mid-left,
+.mid-right
+{
+    margin: auto;
+    background-color: rgb(175, 177, 185);
+    padding: 2%;
+    height: 95%;
+    border-radius: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+.left{
+    grid-area: left;
+    width: auto;
+    text-align: center;
+    padding: 0;
+}
+.right{
+    grid-area: right;
+    width: auto;   
+}
+
+.mid-left{
+    grid-area: left;
+    width: auto;
+}
+.mid-right{
+    grid-area: right;
+    width: auto;
+    text-align: center;
+    padding: 0;
+}
+
+/* Backround Parallax */
+.parallax {
+      /* The image used */
+  background-image: url('../Images/bg.png');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: sticky;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+
+/* Card Settings */
+.card-display {
+    display : flex;
+    align-items : center;
+    justify-content : center;  
+    background-color: #10105760;
+    border-radius: 2em;
+    padding: -10%;
+    min-height : 400px;
+    margin: auto 5%;
+  }
+  
+  .container {
+    position : relative;
+    width : 35%;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 30px;
+    margin: auto 10%;
+    
+}
+
+.container .card {
+    position: relative;
+    width : 300px;
+    height : 215px;  
+    background-color : rgba(100, 120, 149, 0.503);
+    margin : 20px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.5s ease-in-out;
+    border-radius : 15px;
+}
+.container .card:hover {
+    height : 400px;
+    width: 400px;
+    background-color: #fff;    
+    /* align-items: center; */
+    /* justify-content : center; */
+  }
+
+  .container .card .preview
+  {
+    visibility : visible;
+    opacity : 1;
+    transition : 1s ease-in-out;
+    font-size: 40px;
+    padding: 3px;
+    margin-top: -60%;
+    background-color: rgba(14, 0, 104, 0.377);
+    border-radius: 1em;
+    text-align: center;
+  }
+  .container .card:hover .preview
+  {
+      opacity : 0;
+      transition : 0.1s ease-in-out;
+      visibility : hidden;
+  }
+  
+  
+  .container .card .heading {
+    position : relative;
+    width : 260px;
+    height : 70px;
+    background-color: #fff;
+    
+    top : -20%;
+    /* left: 8px; */
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+    padding: auto;
+
+    font-size: 50px;
+    text-align: center;
+    border-radius: 1em;
+}
+  
+  
+  .container .card .card-content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .container .card:hover .card-content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.4s;
+    
+  }
+
+  /* End Card */

@@ -1,9 +1,9 @@
 body{
-    background: hsla(333, 100%, 53%, 1);
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0F7B", endColorstr="#F89B29", GradientType=1 );
+    background: hsla(339, 100%, 55%, 1);
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
 }
 
 h1{
@@ -18,7 +18,8 @@ h1{
     grid-template-areas: 
     'Heading Heading'
     'Define Define'
-    'Tasks Lang';
+    'Tasks Lang'
+    'image image';
     justify-content: center;
     align-content: center;
     max-width: 800px;
@@ -92,4 +93,30 @@ table, th,td {
 table{
     margin-left: auto;
     margin-right: auto;
+}
+
+.ImagesCLientServer{
+    grid-area: image;
+    margin: auto;
+    background-color: wheat;
+    border-radius: 1em;
+    text-align: center;
+    padding: 1em;
+}
+
+img{
+    border-radius: 1em;
+}
+
+@media (max-width: 450px){
+    .info{
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
+        grid-template-areas: 
+        'Heading'
+        'Define'
+        'Tasks'
+        'Lang'
+        'image';
+    }
 }

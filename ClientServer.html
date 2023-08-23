@@ -2,17 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Client-Side vs Server-Side Engineering</title>
-    <link rel="stylesheet" href="Styles/ClientServer.css">
+    <title>Client-Side vs Server-Side Engineering - TechTonic</title>
+    <link rel="icon" type="icon/png" href="Images/internet.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="Styles/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body class="ClientServer-body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">TechTonic</a> 
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<div class="nav-dropdown">
+							<button class="nav-link">Information</button>
+							<div class="nav-dropdown-menu nav-information-grid">
+								<div>
+									<div class="nav-dropdown-heading">This website was designed by</div>
+									<div class="nav-dropdown-links">
+										<a class="nav-link">Jordan Ross Olive (600444)</a>
+										<a class="nav-link">Joseph Pereira (601015)</a>
+										<a class="nav-link">Caydan Frank (578131)</a>
+										<a class="nav-link">Eduard Jacobus Engelbrecht (600237)</a>									
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="HomePage.html">Home</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
     <h1>Client-Side vs Server-Side Engineering</h1>
-    <div class="info">
-        <div class="Heading"> <h1>Client-Side Engineering</h1> </div>
-        <div class="define">Programs that run on a client's or user's device are called client-side applications, which are also known as front-end applications. The area of a website that users interact with is the focus of client-side engineers.The front end of an application that users can see is the main emphasis of this kind of engineering.    
+    <div class="ClientServer-info">
+        <div class="ClientServer-heading"> <h1>Client-Side Engineering</h1> </div>
+        <div class="ClientServer-define">Programs that run on a client's or user's device are called client-side applications, which are also known as front-end applications. The area of a website that users interact with is the focus of client-side engineers.The front end of an application that users can see is the main emphasis of this kind of engineering.    
         </div>
-        <div class="Tasks">
+        <div class="ClientServer-Tasks">
             <h1>Client-Side Tasks:</h1>
             <p>
             •	Creating website layouts.<br>
@@ -22,7 +57,7 @@
             •	Adding visual design elements like colours and fonts.
             </p>
         </div>
-        <div class="Languages">
+        <div class="ClientServer-Languages">
             <h1>Programming Languages:</h1>
             <p>
             •	Hypertext Markup Language, or HTML, is the industry-standard language for creating websites. HTML creates a website's framework and renders it in a browser. <br>
@@ -31,18 +66,15 @@
         </div>
         <div class="ImagesCLientServer">
             <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
-                <picture>
-                    <source srcset="Images/Client-side2jpeg.jpg" with="300px" media="(min-width: 450px)">
-                    <img src="Images/Client-side2jpeg.jpg" alt="Client-Side Engineering" width="500px">
-                </picture>    
+                <img src="Images/Client-side2jpeg.jpg" alt="Client-Side Engineering" width="500px">    
             </a>
         </div>
     </div>
-    <div class="info">
-        <div class="Heading"> <h1>Server-Side Engineering</h1> </div>
-        <div class="define">Programming that takes place on a server is known as server-side development, often referred to as back-end development. Web browsers, or clients, communicate with web servers in order to retrieve information, making this kind of programming crucial. This development occurs on servers; thus users are not aware of it.    
+    <div class="ClientServer-info">
+        <div class="ClientServer-heading"> <h1>Server-Side Engineering</h1> </div>
+        <div class="ClientServer-define">Programming that takes place on a server is known as server-side development, often referred to as back-end development. Web browsers, or clients, communicate with web servers in order to retrieve information, making this kind of programming crucial. This development occurs on servers; thus users are not aware of it.    
         </div>
-        <div class="Tasks">
+        <div class="ClientServer-Tasks">
             <h1>Server-Side Tasks:</h1>
             <p>
                 •	Coding dynamic websites. <br>
@@ -53,7 +85,7 @@
                 
             </p>
         </div>
-        <div class="Languages">
+        <div class="ClientServer-Languages">
             <h1>Programming Languages:</h1>
             <p>
                 •	Java: A popular object-oriented programming language, Java is used by programmers to create a wide range of software and applications. <br>
@@ -67,7 +99,7 @@
             </a>
         </div>
     </div>
-    <div class="tables">
+    <div class="ClientServer-tables">
         <table>
             <tr>
                 <th>Client-Side</th>

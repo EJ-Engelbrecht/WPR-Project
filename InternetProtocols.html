@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="Styles\mainpage.css" rel="stylesheet">
     <link href="Styles/InternetProtocols.css" rel="stylesheet">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">TechTonic</a> 
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<div class="nav-dropdown" nav-data-dropdown>
+							<button class="nav-link" nav-data-dropdown-button>Information</button>
+							<div class="nav-dropdown-menu nav-information-grid">
+								<div>
+									<div class="nav-dropdown-heading">This website was designed by</div>
+									<div class="nav-dropdown-links">
+										<a class="nav-link" href="#">Jordan Ross Olive (600444)</a>
+										<a class="nav-link" href="#">Joseph Perreira ()</a>
+										<a class="nav-link" href="#">Caydan Frank ()</a>
+										<a class="nav-link" href="#">Eduardo Jacobus ()</a>									
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
     <div class = "heading">
         <h1>
             Internet Protocols
@@ -171,7 +206,7 @@ Data transmission, reception, and processing over the internet are all governed 
                 </p>
             </div>
         </div>
-        <a href="#" class = "top"> Back To Top &#8593;</a>
 </a>
+<a href="#" class="top">Back to Top &#8593;</a>
 </body>
 </html>

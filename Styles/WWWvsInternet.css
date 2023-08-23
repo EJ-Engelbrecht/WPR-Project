@@ -1,30 +1,21 @@
-body {
-    background: hsla(270, 94%, 25%, 1);
-    background: linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#42047E", endColorstr="#07F49E", GradientType=1 );
-}
-
-*{
+.wwwVinternet-body {
+    background: #2f363e;
     color: white;
 }
-
-h1 {
+.wwwVinternet-h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+.wwwVinternet-h2 {
     text-align: center;
 }
-
-h2 {
-    text-align: center;
-}
-
-.container {
+.wwwVinternet-container {
     padding: 0.2em;
     justify-content: center;
     margin: 5em;
 }
 
-.definition {
+.wwwVinternet-definition {
     margin: auto;
     display: grid;
     grid-template-columns: 2fr minmax(50px,2fr);
@@ -41,48 +32,95 @@ h2 {
     justify-content: center;
 }
 
-.deftext {
+.wwwVinternet-deftext {
     text-align: left;
-    color: black;
+    color: white;
 }
 
-.image {
+.wwwVinternet-image {
     text-align: center;
 }
 
-.tables {
+.wwwVinternet-tables {
     margin: auto;
     background: hsla(190, 79%, 59%, 1);
-    background: linear-gradient(90deg, hsla(190, 79%, 59%, 1) 0%, hsla(226, 50%, 65%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(190, 79%, 59%, 1) 0%, hsla(226, 50%, 65%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(190, 79%, 59%, 1) 0%, hsla(226, 50%, 65%, 1) 100%);
+    background: linear-gradient(90deg, hsla(190, 79%, 59%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(190, 79%, 59%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(190, 79%, 59%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#45CDE9", endColorstr="#7A8FD3", GradientType=1 );
-    border-radius: 0em;
     max-width: 1000px;
     min-width: 100px;
+    border: 2px solid white;
+    border-radius: 1em;
+    overflow: hidden;
 
 }
 
-img {
+.wwwVinternet-img {
     margin: auto;
     border-radius: 1em;
 }
 
-table {
+.wwwVinternet-table{
     margin-left: auto;
     margin-right: auto;
 }
 
-th{
+.wwwVinternet-table th{
     text-align: center;
+    padding:  1em;
+}
+
+.wwwVinternet-table td {
     padding: 1em;
 }
 
-td {
-    padding: 1em;
-}
-
-table, th,td {
-    border: 1px solid white;
+.wwwVinternet-table, .wwwVinternet-table th,.wwwVinternet-table td {
     border-collapse: collapse;
+    border-radius: 1em;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 767px) {
+    .wwwVinternet-h1 {
+        padding-top: 60px;
+    }
+
+    .wwwVinternet-container {
+        margin: 0.5em;
+    }
+
+    .wwwVinternet-definition {
+        overflow: hidden;
+        word-wrap: break-word;
+        grid-template-columns: 1fr;
+        padding: 1em; 
+        max-width: 100%;
+    }
+
+    .wwwVinternet-deftext {
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 1em;
+    }
+
+    .wwwVinternet-image {
+        margin: 1em 0;
+    }
+
+    .wwwVinternet-tables {
+        max-width: 100%;
+        min-width: auto;
+        border: none;
+    }
+
+    .wwwVinternet-table th,
+    .wwwVinternet-table td {
+        padding: 0.5em;
+    }
+
+    .wwwVinternet-img {
+        border-radius: 0;
+    }
 }

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  	<title> Vertical Timeline FINAL</title>
-  	<meta charset="utf-8">
+	<meta charset="utf-8">
+  	<title>History of The Internet - TechTonic</title>
+  	<link rel="icon" type="icon/png" href="Images/internet.png">
   	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
- 	<link rel="stylesheet" href=Styles\mainpage.css>
+ 	<link  href="Styles/styles.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-	<script src="Scripts/NavDropdownListener.js" defer></script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -20,8 +20,8 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<div class="nav-dropdown" nav-data-dropdown>
-							<button class="nav-link" nav-data-dropdown-button>Dates</button>
+						<div class="nav-dropdown">
+							<button class="nav-link">Dates</button>
 							<div class="nav-dropdown-menu nav-information-grid">
 								<div>
 									<div class="nav-dropdown-heading">Year Groups</div>
@@ -39,148 +39,153 @@
 						</div>
 					</li>
 					<li class="nav-item">
-						<div class="nav-dropdown" nav-data-dropdown>
-							<button class="nav-link" nav-data-dropdown-button>Information</button>
+						<div class="nav-dropdown">
+							<button class="nav-link">Information</button>
 							<div class="nav-dropdown-menu nav-information-grid">
 								<div>
-									<div class="nav-dropdown-heading">The contents of this webpage were provided by Eduardo Theodorus Jacobus</div>									
+									<div class="nav-dropdown-heading">This website was designed by</div>
+									<div class="nav-dropdown-links">
+										<a class="nav-link">Jordan Ross Olive (600444)</a>
+										<a class="nav-link">Joseph Pereira (601015)</a>
+										<a class="nav-link">Caydan Frank (578131)</a>
+										<a class="nav-link">Eduard Jacobus Engelbrecht (600237)</a>									
 								</div>
 							</div>
 						</div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
+						<a class="nav-link" href="HomePage.html">Home</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-<section class="timeline-section">
-	<h1 id = "1960" style="background-color: #24292d; color: #7EC8E3; font-size: 299%; text-align: center;">HISTORY OF THE INTERNET</h1>
-	<div class="timeline-items">
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1969</div>
-			<div class="timeline-content">
+<section class="HistoryInternet-timeline-section">
+	<h1 class="HistoryInternet-timeline-heading" id = "1960">HISTORY OF THE INTERNET</h1>
+	<div class="HistoryInternet-timeline-items">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1969</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Arpanet</h3>
 				<p>The United States Department of Defence’s Advanced Research Projects Agency (ARPA) launches the ARPANET,
 					 the forerunner to the current Internet, in 1969. Two computers at UCLA and Stanford exchange the first communication.
 				</p>
 				<img alt="..." class="d-block w-10" src="Images/Arpanet.png">
 			</div>
-			<div class="timeline-content" id = "1970">
+			<div class="HistoryInternet-timeline-content" id = "1970">
 				<h3>Unix</h3>
 				<p>A operating system with the name Unix was born.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1971</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1971</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Email</h3>
 				<p>Ray Tomlinson creates the original email programme, enabling the transmission of messages between users of various computers.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1973</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1973</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>The first trans-Atlantic connection and the popularity of emailing</h3>
 				<p>The University College of London and Arpanet established their first transatlantic connection in 1973. 75% of all Arpanet network activity that year was attributed to email.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1974</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1974</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3> The beginning of TCP/IP</h3>
 				<p>1974 was a year of innovation. A plan was announced to connect Arpa-like networks into an ungoverned "inter-network" that would revolve around a transmission control protocol (which would later become TCP/IP).</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1977</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1977</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>The PC modem</h3>
 				<p>The creation of the Internet as we know it now had a significant year in 1977. It was the year that Dennis Hayes and Dale Heatherington unveiled and first sold to computer hobbyists the first PC modem.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1978</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1978</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3> Spam is born</h3>
 				<p>Gary Thuerk delivered the first unsolicited commercial email message (after referred to as spam) in 1978 to 600 users of the California Arpanet.</p>
 				<img alt="..." class="d-block w-10" src="Images/Spam.png">
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1979</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1979</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>MUD: The earliest form of multiplayer games</h3>
 				<p>MUD (short for MultiUser Dungeon) was created in 1979 and served as the forerunner of both World of Warcraft and Second Life. Role-playing games, interactive literature, and online chat were all combined in MUDs, which were wholly text-based virtual worlds.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>Usenet</h3>
 				<p>Usenet, developed by two graduate students, entered the picture in 1979 as well. Usenet was a discussion platform based on the internet that enabled users from all over the world to communicate by publishing open messages that were categorised by newsgroups.</p>
 			</div>
 		</div>
 		<hr id = "1980">
 		<hr>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1982</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1982</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>The first emoticon</h3>
 				<p>Although Scott Fahlman suggested using after a joke in 1982 rather than the original suggested by Kevin MacKenzie, many people still give that inventor credit for the emoticon's 1979 conception. The first emoticon appeared. 🙂</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1983</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1983</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Domain Name System (DNS)</h3>
 				<p>The Domain Name System (DNS) is made available, enabling the mapping of domain names to IP addresses, and streamlining website access.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1988</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1988</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>IRC: Internet Relay Chat</h3>
 				<p>Real-time chat and the instant messaging apps we use today were made possible by the introduction of Internet Relay Chat (IRC) in 1988.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3> First major malicious internet-based attack</h3>
 				<p> 1988 saw the publication of one of the first significant Internet worms. It was developed by Robert Tappan Morris and was known as "The Morris Worm"; it severely disrupted a sizable portion of the Internet.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1989</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1989</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>The proposal for the World Wide Web</h3>
 				<p> By laying out the fundamentals of HTTP and HTML, Tim Berners-Lee, a researcher at CERN, presents the idea of the World Wide Web.</p>
 			</div>
 		</div>
 		<hr id = "1990">
 		<hr>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1990</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1990</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>World Wide Web protocols finished</h3>
 				<p>The World Wide Web is officially launched by Tim Berners-Lee with the development of the first web server and web browser.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>The first search engine</h3>
 				<p>The first search engine was developed in 1990 for a school project by Montreal-based college student Alan Emtage.
 					It was referred to as the Archie Index.
 				</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>The first photo shared on the Internet</h3>
 				<p>Tim Berners-Lee comes to mind. He's creating a stir once more after posting the initial image online.
 				   Les Horribles Cernettes, a vocal group, performed on the song.
@@ -188,77 +193,77 @@
 				<img alt="..." class="d-block w-10" src="Images/FirstImageShared.png">
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1991</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1991</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>First web page created</h3>
 				<p>The launch of the first website with details about the World Wide Web initiative.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>The first webcam</h3>
 				<p>But the first webcam was one of the more intriguing innovations of this time. Its main function was to keep an eye on a certain coffee maker in a computer lab at Cambridge University so that users may avoid making unnecessary visits to empty coffee pots.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1993</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1993</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Mosaic: first graphical web browser for the general public</h3>
 				<p>Release of Mosaic, the first popular graphical web browser, opens the Internet to more people. </p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>Governments join in on the fun</h3>
 				<p>The.gov and.org domain names were first used in 1993, when the White House and the UN both went online.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1994</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1994</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Internet Transactions</h3>
 				<p>Without e-commerce, where would we be? The first item was bought safely online in 1994, and since then,
 				   secure internet transactions have been around.
 				</p>
 				<img alt="..." class="d-block w-10" src="Images/InternetTransactions.png">
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>The first secure ecommerce transaction</h3>
 				<p>A Sting CD that sold for $12.48 on Dan Kohn's NetMarket might have been the item. However, according to the Internet Shopping Network, they may have made a computer equipment online purchase a month earlier.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1995</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1995</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>ISPs</h3>
 				<p>Internet usage increases quickly as commercial Internet service providers (ISPs) begin to provide access to the network.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>The development of cryptocurrency</h3>
 				<p>What better way to support e-commerce than by creating a cryptocurrency? DigiCash, developed in 1995 by computer scientist and cryptographer David Chaum, paved the path for Bitcoin and other types of digital currency.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1996</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1996</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>The creation of social media</h3>
 				<p>In 1996, the first social media platform is developed, making the Internet more social in addition to webmail. Six Degrees, which was established by Andrew Weinreich, has all of our favourite social media characteristics, such as unique profiles and relationships with friends.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1997</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1997</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>The invention of Wi-Fi</h3>
 				<p>We can date the formal creation of Wi-Fi back to 1997, and today it is nearly synonymous with the Internet. The IEEE (Institute of Electrical and Electronics Engineers) ratified the 802.11 Wi-Fi standard in this year. </p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1998</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">1998</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Google!</h3>
 				<p>Larry Page and Sergey Brin launched Google, which revolutionised web search and rose to prominence as one of the biggest online businesses. </p>
 				<img alt="..." class="d-block w-10" src="Images/Google.png">
@@ -266,193 +271,193 @@
 		</div>
 		<hr id = "2000">
 		<hr>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2000</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2000</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>The bubble bursts</h3>
 				<p>Dotcom collapsed in 2000, leaving countless investors with enormous losses. </p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2001</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2001</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Wikipedia is launched</h3>
 				<p>Wikipedia was one of the websites that helped create social media and collective web content when it began in 2001, still amid the dotcom crash.</p>
 				<img alt="..." class="d-block w-10" src="Images/Wikipedia.png">
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2003</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2003</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>VoIP goes mainstream</h3>
 				<p>2003 saw the public launch of Skype, which provided Voice over IP calling with an intuitive user interface. </p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2004</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2004</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>“The” Facebook opens to college students</h3>
 				<p>Facebook is first introduced by Mark Zuckerberg, and through time it grows to become one of the biggest and most popular social media sites.</p>
 				<img alt="..." class="d-block w-10" src="Images/Facebook.png">
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>Web 2.0</h3>
 				<p>Although it was first used in 1999 by Darcy DiNucci, the phrase "Web 2.0" came to be used to describe websites and Rich Internet Applications (RIA) that are very interactive and user-driven in 2004. </p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2005</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2005</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>YouTube: streaming video for the masses</h3>
 				<p>With the launch of YouTube in 2005, everyone could share and host free internet videos.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2006</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2006</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Twitter gets twittering</h3>
 				<p>Twitter was introduced in 2006. The original plan was to call it twittr (after Flickr), and the first tweet said, "Just setting up my twttr."</p>
 				<img alt="..." class="d-block w-10" src="Images/Twitter.png">
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2007</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2007</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>The iPhone and the Mobile Web</h3>
 				<p>Apple releases the iPhone, starting a revolution in smartphones and altering how people access the Internet.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>Major move to place TV shows online</h3>
 				<p>Hulu was first introduced in 2007 as a collaborative venture with ABC, NBC, and Fox to provide popular TV shows for online viewing. </p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2008</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2008</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>“Internet Election”</h3>
 				<p>In 2008, in conjunction with the U.S. Presidential election, the first "Internet election" was held. It was the first year that presidential contenders utilised the Internet to its fullest potential. </p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>The beginning of Bitcoin</h3>
 				<p>Recall how cryptocurrencies were created in 1995? Imagine going back to 2008 and seeing the birth of Bitcoin, more precisely the domain name bitcoin.org. </p>
 			</div>
 		</div>
 		<hr id = "2010">
 		<hr>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2010</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2010</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3> Instagram captures a new audience</h3>
 				<p>When Instagram is introduced, social media platforms gain more traction for photo-sharing and graphic content.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-HistoryInternet-timeline-content">
 				<h3>The first commercial transaction using Bitcoin</h3>
 				<p>The first Bitcoin transaction for a business was completed two years after the cryptocurrency's launch. Two Papa John's pizzas worth 10,000 BTC (Bitcoins)  </p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>Pinterest gets people pinning</h3>
 				<p>To encourage pinning and sharing of recipes, crafts, and other content, Pinterest was introduced in 2010. </p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2011</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2011</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Snapchat</h3>
 				<p>The first ephemeral messaging and multimedia sharing platform, Snapchat, is introduced.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>Microsoft buys Skype</h3>
 				<p>The internet video chatting service Skype, which permits video chats online, was bought by Microsoft.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2013</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2013</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Internet banking becomes mainstream</h3>
 				<p>More people began using internet banking in 2013. 78% of Americans now favour online banking after ten years.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2014</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2014</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Internet of Things</h3>
 				<p>With linked gadgets becoming more interwoven into daily life, the Internet of Things (IoT) is gaining speed.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>Facebook purchases WhatsApp</h3>
 				<p>Facebook bought the messaging service WhatsApp to support the expansion of their attempts to improve global communication as they continue to enjoy success. </p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2015</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2015</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Live streaming starts</h3>
 				<p>Live streaming was made possible by the growing popularity of video as a content consumption method. Twitter bought the live broadcasting software Periscope in 2015, and Facebook introduced Facebook Live at the same time.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2016</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2016</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>General Data Protection Regulation</h3>
 				<p>The General Data Protection Regulation (GDPR), which establishes rules for data protection and privacy in the digital age, is enacted by the European Union.</p>
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>TikTok dances to the top</h3>
 				<p>In 2016, TikTok entered the market, grabbing the interest of consumers all around the world.
 				   The creation of video material to share with others grew on this platform.
 				</p>
 				<img alt="..." class="d-block w-10" src="Images/Tiktok.png">
 			</div>
-			<div class="timeline-content">
+			<div class="HistoryInternet-timeline-content">
 				<h3>Google launches their voice assistant</h3>
 				<p>As technology advanced, more businesses started using voice-activated tools to enhance online experiences. Google introduced its voice assistant in 2016 via the Apollo app and Google Nest smart home device.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2019</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2019</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>5G rolls out</h3>
 				<p>Beginning with this year, 5G networks will be rolled out, offering wider capabilities and faster and more dependable Internet connections.</p>
 			</div>
 		</div>
 		<hr id = "2020">
 		<hr>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2020</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2020</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>Remote Work (COVID-19)</h3>
 				<p>The COVID-19 epidemic has accelerated the use of online learning, remote work, and digital communication technologies, underscoring the value of a strong Internet infrastructure.</p>
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2021</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2021</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>The rise of NFTs</h3>
 				<p>Non-Fungible Tokens (NFTs) started to gain popularity as a means of exchanging money for digital goods and artwork in 2021.</p>
 				<img alt="..." class="d-block w-10" src="Images/NFT.png">
 			</div>
 		</div>
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">2022</div>
-			<div class="timeline-content">
+		<div class="HistoryInternet-timeline-item">
+			<div class="HistoryInternet-timeline-dot"></div>
+			<div class="HistoryInternet-timeline-date">2022</div>
+			<div class="HistoryInternet-timeline-content">
 				<h3>ChatGPT launches</h3>
 				<p>ChatGPT was formally introduced in 2022. People can create messages, gather data, and more with the aid of an artificial intelligence (AI) platform.</p>
 				<img alt="..." class="d-block w-10" src="Images/gpt.png">

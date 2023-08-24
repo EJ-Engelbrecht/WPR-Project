@@ -2,21 +2,103 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <title>Evolution of The Internet - TechTonic</title>
+    <link rel="icon" type="icon/png" href="Images/internet.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <link href="Styles/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <div>
-        The development of the Internet has been a fascinating journey, revolutionising how people interact, work, and communicate. The foundation for the contemporary Internet was built with the creation of TCP/IP protocols in the 1970s, which sprang from ARPANET in the late 1960s. This made it possible for many networks to link with ease, serving as the cornerstone of the current global network of networks.
-The Internet expanded and became more widely used in the 1980s and 1990s. User-friendly browsing was made possible by Tim Berners-Lee's creation of the World Wide Web, which sparked its rapid expansion. Despite being responsible for the emergence and fall of many Internet-related businesses, the dot-com bubble marked an important stage in the commercialization of the Internet.
-In the 2000s, social media platforms and broadband connections grew in popularity, revolutionising how people communicate and consume content. With their continual connectivity and acceleration of the Internet of Things (IoT) movement, which links common objects to the digital world, smartphones spearheaded the mobile Internet revolution.
-The 2010s saw the rise of cloud computing, which made it possible to access applications and store data remotely. Data privacy, cybersecurity, and the digital divide were among issues that were brought to light during this time. Discussions on rules and digital literacy were sparked by these difficulties.
-The future of the Internet will be shaped by new technologies like 5G, AI, and blockchain. Misinformation, cybersecurity dangers, and the ethical use of technology are ongoing issues. Society, economy, and global connectedness are all being redefined by the Internet's transformational potential.
-The Internet's evolution has been characterised by adaptability and its capability to profoundly transform our environment, from its humble origins as a research project to its current status as a vital global infrastructure.
+<body class="evolBody">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">TechTonic</a> 
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<div class="nav-dropdown" nav-data-dropdown>
+							<button class="nav-link" nav-data-dropdown-button>Information</button>
+							<div class="nav-dropdown-menu nav-information-grid">
+								<div>
+									<div class="nav-dropdown-heading">This website was designed by</div>
+									<div class="nav-dropdown-links">
+										<a class="nav-link">Jordan Ross Olive (600444)</a>
+										<a class="nav-link">Joseph Pereira (601015)</a>
+										<a class="nav-link">Caydan Frank (578131)</a>
+										<a class="nav-link">Eduard Jacobus Engelbrecht (600237)</a>								
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="HomePage.html">Home</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
+    <div class="evolWrap">
+        <div id="evolContent">
+            <div class="evolContainer">
+                <h1 class="evolHeading">Evolution of the Internet</h1>
+                <div class="evolStart">
+                    <ul class="row">
+                        <li>
+                            <div class="evolMedia-body">
+                                <h4>1960s-1970s: Birth of ARPANET and Foundational Protocols</h4>
+                                <p>
+                                    1969: The first successful message is sent between two nodes on ARPANET, marking the birth of the internet's predecessor.
+                                    1972: The introduction of the first email program, allowing users to send electronic messages across the network.
+                                    1973: The TCP/IP protocol suite is proposed by Vinton Cerf and Bob Kahn, becoming the foundation for modern internet communication.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="evolMedia-body">
+                                <h4>1980s-1990s: Commercialization and the World Wide Web</h4>
+                                <p>
+                                    1983: ARPANET transitions to using TCP/IP as its standard protocol, allowing different networks to interconnect seamlessly.
+                                    1985: The National Science Foundation (NSF) establishes NSFNET, a high-speed backbone network connecting universities and research institutions.
+                                 	1989: Tim Berners-Lee proposes the World Wide Web concept, creating the first web browser and server.
+                                    1991: The first website is launched, and the first web page goes live.
+                                    1993: The graphical web browser Mosaic is released, making the Web more accessible and user-friendly.
+                                    1994: Netscape Navigator's release further popularizes web browsing.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="evolMedia-body">
+                                <h4>2000s: Emergence of Web 2.0 and E-Commerce</h4>
+                                <p>
+                                    2000: The dot-com bubble bursts, leading to a revaluation of internet-based businesses and their viability.
+                                    2004: The term "Web 2.0" is coined, emphasizing user-generated content, collaboration, and interactive applications.
+                                    2004: Facebook is launched, marking the beginning of the social media era.
+                                    2006: Twitter is introduced, further shaping online communication and interaction.
+                                    2007: The iPhone is released, ushering in the era of mobile internet access and changing how people use the internet.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="evolMedia-body">
+                                <h4>2010s: Mobile Internet and the Cloud</h4>
+                                <p>
+                                    2010: Instagram is launched, focusing on visual content sharing, and starting the trend of photo-based social platforms.
+                                    2010s: The proliferation of mobile apps transforms how people access online content and services.
+                                    2012: The launch of 4G networks provides faster and more reliable internet access.
+                                    2015: The adoption of HTTPS becomes increasingly important for website security and user privacy.
+                                    2019: The roll-out of 5G networks begins, promising even faster data speeds and improved connectivity
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

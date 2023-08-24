@@ -2,176 +2,215 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="Styles/InternetProtocols.css" rel="stylesheet">
+    <title>Internet Protocols - TechTonic</title>
+    <link rel="icon" type="icon/png" href="Images/internet.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="Styles/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <div class = "heading">
+<body class="InternetProtocols-body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">TechTonic</a> 
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+						<div class="nav-dropdown">
+							<button class="nav-link">Sections</button>
+							<div class="nav-dropdown-menu nav-information-grid">
+								<div>
+									<div class="nav-dropdown-heading">Protocols</div>
+									<div class="nav-dropdown-links">
+										<a class="nav-link" href="#TCP">TCP</a>
+										<a class="nav-link" href="#IP">IP</a>
+										<a class="nav-link" href="#HTTP">HTTP</a>
+										<a class="nav-link" href="#FTP">FTP</a>
+										<a class="nav-link" href="#VOIP">VOIP</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<div class="nav-dropdown">
+							<button class="nav-link">Information</button>
+							<div class="nav-dropdown-menu nav-information-grid">
+								<div>
+									<div class="nav-dropdown-heading">This website was designed by</div>
+									<div class="nav-dropdown-links">
+										<a class="nav-link">Jordan Ross Olive (600444)</a>
+										<a class="nav-link">Joseph Pereira (601015)</a>
+										<a class="nav-link">Caydan Frank (578131)</a>
+										<a class="nav-link">Eduard Jacobus Engelbrecht (600237)</a>									
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="HomePage.html">Home</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+    <div class = "InternetProtocols-heading">
         <h1>
             Internet Protocols
         </h1>
     </div>
-    <div class = "intro">
-        <b>What is an Internet Protocol?</b>
+    <div class = "InternetProtocols-intro">
+        <h2>What is an Internet Protocol?</h2>
         <p>
-            A protocol in networking is a standardized method of carrying out specific tasks and formatting data so that two or more devices can talk to and understand one another. 
-Data transmission, reception, and processing over the internet are all governed by a set of rules and conventions called internet protocols. Internet protocols offer a common language that computers and other devices can use to communicate with one another, just as human communication depends on shared languages and social graces. These protocols specify the structure of data packets, the timing of interactions, the methods for handling errors, and other things. 
-
+            A protocol in networking is a standardized method of carrying out specific
+            tasks and formatting data so that two or more devices can talk to and
+            understand one another. Data transmission, reception, and processing over
+            the internet are all governed by a set of rules and conventions called internet
+            protocols. Internet protocols offer a common language that computers and other
+            devices can use to communicate with one another, just as human communication
+            depends on shared languages and social graces. These protocols specify the
+            structure of data packets, the timing of interactions, the methods for handling 
+            errors, and other things. 
         </p>
     </div>
-<a id = "Intro">
-    <div class = "intro" style="width: auto; margin-left:3em;">
-        <b>Common Internet Protocols:</b>
-    </div>
-</a>
-    <div class = "btn-container">
-        <a href="#TCP">
-            <button class = "button">TCP</button>
-        </a>
-        <a href="#IP">
-            <button class = "button">IP</button>
-        </a>
-        <a href="#HTTP">
-            <button class = "button">HTTP</button>
-        </a>
-        <a href="#FTP">
-            <button class = "button">FTP</button>
-        </a>
-        <a href="#VOIP">
-            <button class = "button">VOIP</button>
-        </a>
-
+    <div class = "InternetProtocols-intro">
+        <h2>Common Internet Protocols:</h2>
     </div>
     
     <a id = "TCP">
-    <div class="wrap animate pop">
-        <div class="overlay">
-            <div class="overlay-content animate slide-left delay-2">
-                <h1 class="animate slide-left pop delay-4">Transmission Control Protocol</h1>
-                <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Internet <em>Protocols</em></p>
-            </div>
-            <div class="image-content animate slide delay-5"> TCP</div>
-                    <div class="dots animate">
-                        <div class="dot animate slide-up delay-6"></div>
-                        <div class="dot animate slide-up delay-7"></div>
-                        <div class="dot animate slide-up delay-8"></div>
+        <div class="InternetProtocols-wrap animate pop">
+            <div class="InternetProtocols-overlay">
+                <div class="InternetProtocols-overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Transmission Control Protocol</h1>
+                    <p class="animate slide-left pop delay-5">Internet <em>Protocols</em></p>
+                </div>
+                <div class="InternetProtocols-image-content animate slide delay-5"> TCP</div>
+                     <div class="InternetProtocols-dots animate">
+                        <div class="InternetProtocols-dot animate slide-up delay-6"></div>
+                        <div class="InternetProtocols-dot animate slide-up delay-7"></div>
+                        <div class="InternetProtocols-dot animate slide-up delay-8"></div>
                     </div>
+            </div>
+                <div class="InternetProtocols-text">
+                    <p> 
+                        A fundamental protocol known as TCP 
+                        ensures dependable and well-ordered data transmission between online devices. It functions at the OSI 
+                        (Open Systems Interconnection) model's transport layer. Data is divided into packets and sent over the network 
+                        using a connection established by TCP between the sender and receiver. It controls error detection and correction 
+                        and makes sure that data packets arrive in the right order. This dependability is essential for data-sensitive 
+                        applications like file transfers, email, and web browsing.
+                    </p>
+                </div>
         </div>
-            <div class="text">
-                <p>A fundamental protocol known as TCP 
-                    ensures dependable and well-ordered data transmission between online devices. It functions at the OSI 
-                    (Open Systems Interconnection) model's transport layer. Data is divided into packets and sent over the network 
-                    using a connection established by TCP between the sender and receiver. It controls error detection and correction 
-                    and makes sure that data packets arrive in the right order. This dependability is essential for data-sensitive 
-                    applications like file transfers, email, and web browsing.
-                </p>
-            </div>
-    </div>
-</a>
-<a id = "IP">
-    <div class="wrap animate pop">
-        <div class="overlay">
-            <div class="overlay-content animate slide-left delay-2">
-                <h1 class="animate slide-left pop delay-4">Internet Protocol</h1>
-                <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Internet: <em>Protocols</em></p>
-            </div>
-            <div class="image-content animate slide delay-5">IP</div>
-                    <div class="dots animate">
-                        <div class="dot animate slide-up delay-6"></div>
-                        <div class="dot animate slide-up delay-7"></div>
-                        <div class="dot animate slide-up delay-8"></div>
+    </a>
+    <a id = "IP">
+        <div class="InternetProtocols-wrap animate pop">
+            <div class="InternetProtocols-overlay">
+                <div class="InternetProtocols-overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Internet Protocol</h1>
+                    <p class="animate slide-left pop delay-5">Internet: <em>Protocols</em></p>
+                </div>
+                <div class="InternetProtocols-image-content animate slide delay-5">IP</div>
+                    <div class="InternetProtocols-dots animate">
+                        <div class="InternetProtocols-dot animate slide-up delay-6"></div>
+                        <div class="InternetProtocols-dot animate slide-up delay-7"></div>
+                        <div class="InternetProtocols-dot animate slide-up delay-8"></div>
                     </div>
-        </div>
-            <div class="text">
-                <p>
-                    Data packets are addressed and routed across networks by IP, also referred to as the Internet Protocol. 
-                    On the OSI model, it functions at the network layer. In order for routers to route data packets to the 
-                    correct destinations, devices on a network must be uniquely identified by IP addresses. The Internet Protocol 
-                    versions 4 (IPv4) and 6 (IPv6) are the two that are most frequently used. Due to the internet's explosive growth, 
-                    IPv4's 32-bit addresses were running out. With the advent of 128-bit addresses in IPv6, there are virtually 
-                    infinite numbers of unique addresses available to support the growing number of devices.
-                </p>
             </div>
-    </div>
-</a>
-<a id = "HTTP">
-    <div class="wrap animate pop">
-        <div class="overlay">
-            <div class="overlay-content animate slide-left delay-2">
-                <h1 class="animate slide-left pop delay-4">Hypertext Transfer Protocol (Secure)</h1>
-                <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Internet <em>Protocols</em></p>
-            </div>
-            <div class="image-content animate slide delay-5">HTTP & HTTPS</div>
-                    <div class="dots animate">
-                        <div class="dot animate slide-up delay-6"></div>
-                        <div class="dot animate slide-up delay-7"></div>
-                        <div class="dot animate slide-up delay-8"></div>
-                    </div>
+                <div class="InternetProtocols-text">
+                    <p>
+                        Data packets are addressed and routed across networks by IP, also referred to as the Internet Protocol. 
+                        On the OSI model, it functions at the network layer. In order for routers to route data packets to the 
+                        correct destinations, devices on a network must be uniquely identified by IP addresses. The Internet Protocol 
+                        versions 4 (IPv4) and 6 (IPv6) are the two that are most frequently used. Due to the internet's explosive growth, 
+                        IPv4's 32-bit addresses were running out. With the advent of 128-bit addresses in IPv6, there are virtually 
+                        infinite numbers of unique addresses available to support the growing number of devices.
+                    </p>
+                </div>
         </div>
-            <div class="text">
-                <p>
-                    The protocol known as HTTP makes it easier to send files like web pages and other resources from web servers to 
-                    web browsers. It functions at the OSI model's application layer. It specifies how requests and responses are 
-                    organized, allowing text, images, videos, and other content to be displayed on websites. HTTP, however, sends 
-                    information in plain text, which can be accessed by nefarious parties. HTTPS (Hypertext Transfer Protocol Secure) 
-                    was created to address this. Using SSL (Secure Sockets Layer) or TLS (Transport Layer Security), HTTPS adds an 
-                    encryption layer to ensure the confidentiality and integrity of data transferred between the client (browser) and 
-                    the server.
+    </a>
+    <a id = "HTTP">
+        <div class="InternetProtocols-wrap animate pop">
+            <div class="InternetProtocols-overlay">
+                <div class="InternetProtocols-overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Hypertext Transfer Protocol (Secure)</h1>
+                    <p class="animate slide-left pop delay-5">Internet <em>Protocols</em></p>
+                </div>
+                <div class="InternetProtocols-image-content animate slide delay-5">HTTP & HTTPS</div>
+                        <div class="InternetProtocols-dots animate">
+                            <div class="InternetProtocols-dot animate slide-up delay-6"></div>
+                            <div class="InternetProtocols-dot animate slide-up delay-7"></div>
+                            <div class="InternetProtocols-dot animate slide-up delay-8"></div>
+                        </div>
+            </div>
+                <div class="InternetProtocols-text">
+                    <p>
+                        The protocol known as HTTP makes it easier to send files like web pages and other resources from web servers to 
+                        web browsers. It functions at the OSI model's application layer. It specifies how requests and responses are 
+                        organized, allowing text, images, videos, and other content to be displayed on websites. HTTP, however, sends 
+                        information in plain text, which can be accessed by nefarious parties. HTTPS (Hypertext Transfer Protocol Secure) 
+                        was created to address this. Using SSL (Secure Sockets Layer) or TLS (Transport Layer Security), HTTPS adds an 
+                        encryption layer to ensure the confidentiality and integrity of data transferred between the client (browser) and 
+                        the server.
 
-                </p>
-            </div>
-    </div>
-</a>
-<a id = "FTP">
-    <div class="wrap animate pop">
-        <div class="overlay">
-            <div class="overlay-content animate slide-left delay-2">
-                <h1 class="animate slide-left pop delay-4">File Transfer Protocol</h1>
-                <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Internet <em>Protocols</em></p>
-            </div>
-            <div class="image-content animate slide delay-5">FTP</div>
-                    <div class="dots animate">
-                        <div class="dot animate slide-up delay-6"></div>
-                        <div class="dot animate slide-up delay-7"></div>
-                        <div class="dot animate slide-up delay-8"></div>
-                    </div>
+                    </p>
+                </div>
         </div>
-            <div class="text">
-                <p>A client and a server can transfer files using the FTP protocol. It functions at the OSI model's application layer. 
-                    FTP offers features for managing, downloading, and uploading files to distant servers. SFTP (SSH File Transfer 
-                    Protocol) and FTPS (FTP Secure), which add encryption layers to the data transfer process, are more secure 
-                    alternatives to plain text transmission that have been developed despite the fact that it has been widely used.
-                </p>
+    </a>
+    <a id = "FTP">
+        <div class="InternetProtocols-wrap animate pop">
+            <div class="InternetProtocols-overlay">
+                <div class="InternetProtocols-overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">File Transfer Protocol</h1>
+                    <p class="animate slide-left pop delay-5">Internet <em>Protocols</em></p>
+                </div>
+                <div class="InternetProtocols-image-content animate slide delay-5">FTP</div>
+                        <div class="InternetProtocols-dots animate">
+                            <div class="InternetProtocols-dot animate slide-up delay-6"></div>
+                            <div class="InternetProtocols-dot animate slide-up delay-7"></div>
+                            <div class="InternetProtocols-dot animate slide-up delay-8"></div>
+                        </div>
             </div>
-    </div>
-</a>
-<a id = "VOIP">
-    <div class="wrap animate pop">
-        <div class="overlay">
-            <div class="overlay-content animate slide-left delay-2">
-                <h1 class="animate slide-left pop delay-4">Voice Over Internet Protocol</h1>
-                <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Internet <em>Protocols</em></p>
-            </div>
-            <div class="image-content animate slide delay-5">VOIP</div>
-                    <div class="dots animate">
-                        <div class="dot animate slide-up delay-6"></div>
-                        <div class="dot animate slide-up delay-7"></div>
-                        <div class="dot animate slide-up delay-8"></div>
-                    </div>
+                <div class="InternetProtocols-text">
+                    <p>A client and a server can transfer files using the FTP protocol. It functions at the OSI model's application layer. 
+                        FTP offers features for managing, downloading, and uploading files to distant servers. SFTP (SSH File Transfer 
+                        Protocol) and FTPS (FTP Secure), which add encryption layers to the data transfer process, are more secure 
+                        alternatives to plain text transmission that have been developed despite the fact that it has been widely used.
+                    </p>
+                </div>
         </div>
-            <div class="text">
-                <p>
-                    Voice over Internet Protocol (VoIP) represents a ground-breaking development in the field of communication, 
-                    revolutionizing how people, organizations, and sectors connect and communicate.  Voice over Internet Protocol 
-                    (VOIP) is a technology that sends voice and multimedia over the internet. It allows for real-time communication 
-                    over IP networks by converting voice into digital data packets. Traditional telephony is transformed by VoIP, 
-                    which provides cost savings, flexibility, and cutting-edge features like video conferencing and call forwarding.
+    </a>
+    <a id = "VOIP">
+        <div class="InternetProtocols-wrap animate pop">
+            <div class="InternetProtocols-overlay">
+                <div class="InternetProtocols-overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Voice Over Internet Protocol</h1>
+                    <p class="animate slide-left pop delay-5">Internet <em>Protocols</em></p>
+                </div>
+                <div class="InternetProtocols-image-content animate slide delay-5">VOIP</div>
+                        <div class="InternetProtocols-dots animate">
+                            <div class="InternetProtocols-dot animate slide-up delay-6"></div>
+                            <div class="InternetProtocols-dot animate slide-up delay-7"></div>
+                            <div class="InternetProtocols-dot animate slide-up delay-8"></div>
+                        </div>
+            </div>
+                <div class="InternetProtocols-text">
+                    <p>
+                        Voice over Internet Protocol (VoIP) represents a ground-breaking development in the field of communication, 
+                        revolutionizing how people, organizations, and sectors connect and communicate.  Voice over Internet Protocol 
+                        (VOIP) is a technology that sends voice and multimedia over the internet. It allows for real-time communication 
+                        over IP networks by converting voice into digital data packets. Traditional telephony is transformed by VoIP, 
+                        which provides cost savings, flexibility, and cutting-edge features like video conferencing and call forwarding.
 
-                </p>
+                    </p>
+                </div>
             </div>
-        </div>
-        <a href="#" class = "top"> Back To Top &#8593;</a>
-</a>
+    </a>
+<a href="#" class="top">Back to Top &#8593;</a>
 </body>
 </html>

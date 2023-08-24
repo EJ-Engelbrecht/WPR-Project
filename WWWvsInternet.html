@@ -2,37 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WWW vs The Internet</title>
-    <link rel="stylesheet" href="Styles/WWWvsInternet.css">
+    <title>WWW vs The Internet - TechTonic</title>
+    <link rel="icon" type="icon/png" href="Images/internet.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="Styles/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <h1>World Wide Web vs The Internet</h1>
-    <div class="container"> 
-        <h2>What is the World Wide Web?</h2>
-        <div class="definition">
-            <div class="deftext">
+<body class="wwwVinternet-body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">TechTonic</a> 
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<div class="nav-dropdown">
+							<button class="nav-link">Information</button>
+							<div class="nav-dropdown-menu nav-information-grid">
+								<div>
+									<div class="nav-dropdown-heading">This website was designed by</div>
+									<div class="nav-dropdown-links">
+										<a class="nav-link">Jordan Ross Olive (600444)</a>
+										<a class="nav-link">Joseph Pereira (601015)</a>
+										<a class="nav-link">Caydan Frank (578131)</a>
+										<a class="nav-link">Eduard Jacobus Engelbrecht (600237)</a>									
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="HomePage.html">Home</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <h1 class="wwwVinternet-h1">World Wide Web vs The Internet</h1>
+    <div class="wwwVinternet-container"> 
+        <h2 class="wwwVinternet-h2">What is the World Wide Web?</h2>
+        <div class="wwwVinternet-definition">
+            <div class="wwwVinternet-deftext">
                 <p>A network of websites with addresses is known as the World Wide Web. It was created by Sir Tim Berners-Lee at the CERN physics laboratory in Europe, which houses the Hadron Collider. The creation of the web took place over the course of several years, beginning with Berners-Lee's initial concept in 1989 and ending with the version co-authored with Robert Calliou in 1990.  In 1993, the resulting software was released into the public domain, enabling businesses and individuals all over the world to build their own websites and exchange information. About 2 billion web pages, holding a wide variety of content, are already available, according to CERN.  The official beginning of the World Wide Web, according to the Mozilla Foundation, occurred in 1991, two years before it was made available to the public. The HTTP data transfer protocol, the most widely used online publication format, HTML, and consistent resource locations (URLs) for each web page are the three fundamental indi     vidual parts of the internet.
                 </p>
             </div>
-            <div class="image">
-                <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
-                <img src="Images/TimBerners.webp" alt="Tim Berners" height="250" title="Click for more information">
-                </a>
+            <div class="wwwVinternet-image">
+                <img class="wwwVinternet-img" src="Images/TimBerners.webp" alt="Tim Berners" height="250">
                 <p>Tim Berners-Lee</p>
             </div>
         </div>
     </div>
-    <div class="container">
-        <h2>What is the Internet</h2>
-        <div class="definition">
-            <div class="image">
-                <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
-                <img src="Images/The internet.gif" alt="The Internet" height="250" title="Click for more information">
-                </a>
+    <div class="wwwVinternet-container">
+        <h2 class="wwwVinternet-h2">What is the Internet</h2>
+        <div class="wwwVinternet-definition">
+            <div class="wwwVinternet-image">
+                <img class="wwwVinternet-img" src="Images/The internet.gif" alt="The Internet" height="250">
                 <p>The Internet</p>
             </div>
-            <div class="deftext">
+            <div class="wwwVinternet-deftext">
                 <p>The web's supporting infrastructure is made up of a network of networks called the internet. According to NBC News, the Department of Defence Advanced Research Projects Agency began working on an early version of the internet in 1969. This mainframe computer network, known as ARPANET, eventually developed into the foundation for all digital data transmission.  The World Wide Web is one of the primary methods of accessing the internet, and websites are still essentially a requirement for businesses operating in the modern era, but according to NBC News, some of the most widely used internet connectivity features today—such as sending emails, using file transfer protocols, using mobile apps, and instant messaging—are not necessarily web functions. Of all, using both the internet and the web is what you would be doing if you went to Gmail.com to send that email.
                 </p>
             </div>
@@ -40,11 +70,9 @@
         </div>
     </div>
 
-    <div class="tables">
+    <div class="wwwVinternet-tables">
 
-        <h1>Differences between WWW & Internet</h1>
-
-        <table>
+        <table class="wwwVinternet-table" >
             <tr>
                 <th>World Wide Web</th>
                 <th>The Internet</th>
